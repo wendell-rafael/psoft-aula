@@ -5,5 +5,6 @@ public class Main {
         System.out.println(p.getPreco()); // preço do produto
         System.out.println(l.getDataV()); // validade do lote
         System.out.println(l.getProduto().getPreco()); // acessando nome do produto atraves do lote
+        System.out.println("oi");
     }
 }
