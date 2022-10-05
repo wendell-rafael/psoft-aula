@@ -48,4 +48,13 @@ public class Lote {
     public int hashCode() {
         return Objects.hash(getQuantidade(), getDataV(), getProduto());
     }
+
+    @Override
+    public String toString() {
+        return "Lote{" +
+                "quantidade=" + quantidade +
+                ", dataV='" + dataV + '\'' +
+                ", produto=" + produto +
+                '}';
+    }
 }
