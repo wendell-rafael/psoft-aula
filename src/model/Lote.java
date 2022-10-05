@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Objects;
 
 public class Lote {
@@ -5,7 +7,7 @@ public class Lote {
     private String dataV;
     private Produto produto;
 
-    public Lote(int quantidade, String dataV, Produto produto) {
+    public Lote(Produto produto ,int quantidade, String dataV) {
         this.quantidade = quantidade;
         this.dataV = dataV;
         this.produto = produto;
